@@ -16,7 +16,7 @@ if __name__ == "__main__":
         processes.append(p)
 
     try:
-        time.sleep(90)  # Run the stress test for 90 seconds
+        time.sleep(60)  # Run the stress test for 60 seconds
     except KeyboardInterrupt:
         print("Stopping stress test...")
 
